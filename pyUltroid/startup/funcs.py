@@ -303,7 +303,7 @@ async def autopilot():
                 LOGS.exception(er)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://graph.org/file/27c6812becf6f376cbb10.jpg", "channelphoto.jpg"
+            "https://graph.org/file/222b2d7b7891a6f24a7a4.jpg", "channelphoto.jpg"
         )
         ll = await ultroid_bot.upload_file(photo)
         try:
@@ -334,8 +334,8 @@ async def customize():
             sir = f"@{ultroid_bot.me.username}"
         file = random.choice(
             [
-                "https://graph.org/file/92cd6dbd34b0d1d73a0da.jpg",
-                "https://graph.org/file/a97973ee0425b523cdc28.jpg",
+                "https://graph.org/file/222b2d7b7891a6f24a7a4.jpg",
+                "https://graph.org/file/222b2d7b7891a6f24a7a4.jpg",
                 "resources/extras/ultroid_assistant.jpg",
             ]
         )

@@ -92,7 +92,7 @@ def in_pattern(pattern=None, owner=False, **kwargs):
                 res = [
                     await event.builder.article(
                         title="Ultroid Userbot",
-                        url="https://t.me/TeamUltroid",
+                        url="https://t.me/TigerNetwork",
                         description="(c) TeamUltroid",
                         text=MSG,
                         thumb=InputWebDocument(
